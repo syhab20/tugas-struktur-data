@@ -7,7 +7,7 @@ package Pertemuan4;
 
 /**
  *
- * @author calvi
+ * @author sihab
  */
 public class contohMethod {
     public static void main(String[] args) {
