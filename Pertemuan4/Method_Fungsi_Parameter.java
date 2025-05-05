@@ -7,20 +7,20 @@ package Pertemuan4;
 
 /**
  *
- * @author calvi
+ * @author sihab
  */
 public class Method_Fungsi_Parameter {
     public static void main(String[] args) {
         Method_Fungsi_Parameter mahasiswa = new Method_Fungsi_Parameter();
-        mahasiswa.simpan_nilai("Husna", 90, 70, 100);
-        mahasiswa.simpan_nilai("Labib", 80, 60, 90); 
+        mahasiswa.simpan_nilai("mahli", 90, 70, 100);
+        mahasiswa.simpan_nilai("agung", 80, 60, 90); 
         
         Method_Fungsi_Parameter Kalkulator = new Method_Fungsi_Parameter();
-        double rata2_Husna = Kalkulator.hitung_rata2("Husna", 90, 70, 100);
-        System.out.println("Nilai Rata Rata nya Adalah " + rata2_Husna + "\n");
+        double rata2_Husna = Kalkulator.hitung_rata2("mahli", 90, 70, 100);
+        System.out.println("Nilai Rata Rata nya Adalah " + rata2_mahli + "\n");
         
-        double rata2_Labib = Kalkulator.hitung_rata2("Labib", 80, 60, 90);
-        System.out.println("Nilai Rata Rata nya Adalah " + rata2_Labib + "\n");
+        double rata2_Labib = Kalkulator.hitung_rata2("agung", 80, 60, 90);
+        System.out.println("Nilai Rata Rata nya Adalah " + rata2_agung + "\n");
         
     }
     
