@@ -7,7 +7,7 @@ package Pertemuan4;
 
 /**
  *
- * @author calvi
+ * @author sihab
  */
 class Method_Prosedure {
     public static void main(String[] args) {
